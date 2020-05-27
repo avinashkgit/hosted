@@ -6,10 +6,8 @@
   <body>
     <script type="text/javascript">
       setTimeout(() => {
-        function testEcho(p1) {
-          document.write(p1);
-        }
-      }, 1000);
+        window.MyJSClient.getStringFromJS('hello');
+      }, 5000);
     </script>
 
     <h1>This is a Heading</h1>
