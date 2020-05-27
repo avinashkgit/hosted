@@ -5,9 +5,13 @@
   </head>
   <body>
     <script type="text/javascript">
-      setTimeout(() => {
-        window.MyJSClient.getStringFromJS('hello');
-      }, 5000);
+      function echoBack()
+    {
+        setTimeout(() => {
+            window.MyJSClient.getStringFromJS('hello');
+        }, 5000);
+    }
+     
     </script>
 
     <h1>This is a Heading</h1>
